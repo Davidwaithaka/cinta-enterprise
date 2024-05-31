@@ -1,4 +1,5 @@
 body {
+    display:block;
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -13,6 +14,32 @@ header {
 h1 {
     margin: 0;
 }
+.nav-bar-social-icons {
+    display:flex;
+    gap:30px;
+    justify-content: right;
+}
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 100%; /* Adjust as needed */
+    background: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px;
+}
+
+.marquee {
+    display: inline-block;
+    padding-left: 100%; /* Push the text outside the container */
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
 
 main {
     padding: 20px;
