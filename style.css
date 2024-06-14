@@ -82,6 +82,34 @@ h2 {
 .price {
     font-weight: bold;
 }
+/* Add your existing styles here */
+
+.cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.cart h2 {
+    margin-top: 0;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart li {
+    margin-bottom: 10px;
+}
+
+.cart button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
 
 
 footer {
